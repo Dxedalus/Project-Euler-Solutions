@@ -1,0 +1,18 @@
+ public class literallyWhySoBig {
+public static void main(String args[])
+{
+
+    long bigboy=600851475143L;
+
+    for(long i=2;i<bigboy ;i++)
+    {
+        if(bigboy % i == 0)
+        {
+            bigboy = bigboy/i;
+
+        }   
+
+    }
+    System.out.println(bigboy);
+}
+}
